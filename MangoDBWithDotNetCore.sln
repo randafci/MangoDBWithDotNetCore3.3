@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{83FB1EF5-C319-4059-8249-6A93CC7C88E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setting", "Setting", "{FFA1B371-9977-47F5-9EB1-7D92EF35FB1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{C29FDEBF-A4E3-4CCF-9092-DFCF6D45BEB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{293AD782-271A-4360-9F27-C5A7BFB7FC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setting.Reposistory", "Reposistory\Setting.Reposistory.csproj", "{266C5780-1908-4C66-BA2D-C75EF28321A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoDB", "MangoDB\MangoDB.csproj", "{A6C6B2FC-D40D-4B64-A34B-8911BB658BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoDBSerivce", "MangoDBSerivce\MangoDBSerivce.csproj", "{B18A6DAC-AB3D-4D2D-898F-7ADAA03DE8FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83FB1EF5-C319-4059-8249-6A93CC7C88E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FB1EF5-C319-4059-8249-6A93CC7C88E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FB1EF5-C319-4059-8249-6A93CC7C88E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FB1EF5-C319-4059-8249-6A93CC7C88E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266C5780-1908-4C66-BA2D-C75EF28321A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266C5780-1908-4C66-BA2D-C75EF28321A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266C5780-1908-4C66-BA2D-C75EF28321A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266C5780-1908-4C66-BA2D-C75EF28321A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C6B2FC-D40D-4B64-A34B-8911BB658BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C6B2FC-D40D-4B64-A34B-8911BB658BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C6B2FC-D40D-4B64-A34B-8911BB658BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C6B2FC-D40D-4B64-A34B-8911BB658BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18A6DAC-AB3D-4D2D-898F-7ADAA03DE8FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18A6DAC-AB3D-4D2D-898F-7ADAA03DE8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18A6DAC-AB3D-4D2D-898F-7ADAA03DE8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18A6DAC-AB3D-4D2D-898F-7ADAA03DE8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{266C5780-1908-4C66-BA2D-C75EF28321A3} = {FFA1B371-9977-47F5-9EB1-7D92EF35FB1D}
+		{A6C6B2FC-D40D-4B64-A34B-8911BB658BAD} = {293AD782-271A-4360-9F27-C5A7BFB7FC3C}
+		{B18A6DAC-AB3D-4D2D-898F-7ADAA03DE8FA} = {C29FDEBF-A4E3-4CCF-9092-DFCF6D45BEB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9137E2D5-9C67-4390-B35E-CA8C04FA9074}
+	EndGlobalSection
+EndGlobal
